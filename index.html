@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Letter changer</title>
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <header>
+      <h1>The greatest letter changer of the Age!</h1>
+    </header>
+    <br />
+    <div id="button">
+      <div>
+        <input type="button" value="Enter 3 words" onclick="enterWords();" />
+      </div>
+    </div>
+    <section id="wordWorkspace">
+      <div id="swapButton">
+        <input type="button" value="Swap letters" onclick="swapLetters();" />
+      </div>
+      <div id="unswappedList"></div>
+    </section>
+
+    <section id="letterSwappedBoard">
+      <div id="swappedList"></div>
+    </section>
+  </body>
+</html>

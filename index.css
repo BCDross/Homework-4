@@ -1,0 +1,34 @@
+body {
+  width: 750px;
+  margin: 50px;
+  border-width: 30px;
+  border-style: solid;
+  border-color: green;
+}
+
+#button {
+  font-size: 4em;
+  margin: 10px;
+}
+
+#wordWorkspace {
+  background-color: aquamarine;
+  height: 500px;
+  border-left-width: 25px;
+  border-left-color: maroon;
+  border-left-style: groove;
+  padding: 25px;
+  font-size: 2em;
+  display: none;
+}
+
+#letterSwappedBoard {
+  background-color: darkred;
+  height: 500px;
+  border-left-width: 25px;
+  border-left-color: midnightblue;
+  border-left-style: ridge;
+  padding: 25px;
+  font-size: 2em;
+  display: none;
+}
